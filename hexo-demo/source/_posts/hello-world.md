@@ -1,7 +1,9 @@
 title: Hello World
 author: admin
-tags: ["中元普渡"]
-categories: ["news"]
+tags:
+  - Markdown
+categories:
+  - news
 date: 2021-09-17 15:02:00
 
 ---
