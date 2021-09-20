@@ -17,7 +17,7 @@ url: https://sub.xispace.app
 #permalink: :year/:month/:day/:title/
 #permalink: :category/:hash/
 #permalink: :category/:title/
-permalink: :lang/:category/:title/
+permalink: :category/:title/
 permalink_defaults:
   #lang: en
 pretty_urls:
@@ -101,6 +101,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
+#theme: landscape
 theme: mytheme
 
 # Deployment
