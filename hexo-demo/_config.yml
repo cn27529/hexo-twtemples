@@ -16,8 +16,7 @@ timezone: ''
 url: https://sub.xispace.app
 #permalink: :year/:month/:day/:title/
 #permalink: :category/:hash/
-#permalink: :category/:title/
-permalink: :hash/:title/
+permalink: :category/:title/
 permalink_defaults:
   #lang: en
 pretty_urls:
