@@ -104,7 +104,8 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 #theme: landscape
-theme: mytheme
+#theme: mytheme
+theme: keep
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
