@@ -106,14 +106,14 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 #theme: landscape #OK
-#theme: mytheme #OK
+theme: mytheme #OK
 #theme: keep #OK
 #theme: beautiful-hexo 不能用jade檔
 #theme: QnA #OK
 #theme: lx #OK
 #theme: freemind
 #theme: hiker
-theme: w3c-css3
+#theme: w3c-css3
 
 #for beautiful-hexo
 archive_generator:
