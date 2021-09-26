@@ -14,9 +14,10 @@ timezone: ''
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://sub.xispace.app
-permalink: :year/:month/:day/:title/
+#permalink: :year/:month/:day/:title/
 #permalink: :year/:month/:title/
 #permalink: :category/:hash/
+permalink: :hash/
 #permalink: :category/:title/
 permalink_defaults:
   #lang: en
