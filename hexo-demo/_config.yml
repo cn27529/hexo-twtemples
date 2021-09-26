@@ -151,3 +151,5 @@ search:
   field: post
   content: true
   template: ./search.json
+
+all_minifier: false
