@@ -15,6 +15,7 @@ timezone: ''
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://sub.xispace.app
 permalink: :year/:month/:day/:title/
+#permalink: :year/:month/:title/
 #permalink: :category/:hash/
 #permalink: :category/:title/
 permalink_defaults:
@@ -103,9 +104,21 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-#theme: landscape
-#theme: mytheme
-theme: keep
+#theme: landscape #OK
+theme: mytheme #OK
+#theme: keep #OK
+#theme: beautiful-hexo 不能用jade檔
+#theme: QnA #OK
+#theme: lx #OK
+#theme: freemind
+#theme: hiker
+
+#for beautiful-hexo
+archive_generator:
+  per_page: 0
+  yearly: false
+  monthly: false
+  daily: false
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -123,7 +136,16 @@ plugin:
   - hexo-generator-feed
 #Feed Atom
 feed:
-type: atom
-path: atom.xml
-limit: 20
-rss: /atom.xml
+  # Generate both atom and rss2 feeds
+  type:
+    - atom
+    - rss2
+  path:
+    - atom.xml
+    - rss2.xml
+
+search:
+  path: search.json
+  field: post
+  content: true
+  template: ./search.json
