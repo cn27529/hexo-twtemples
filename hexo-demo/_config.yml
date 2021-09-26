@@ -152,4 +152,4 @@ search:
   content: true
   template: ./search.json
 
-all_minifier: false
+all_minifier: true
