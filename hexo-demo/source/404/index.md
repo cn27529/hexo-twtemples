@@ -7,6 +7,8 @@ permalink: /404.html
 
 <!-- markdownlint-disable MD039 MD033 -->
 
+# 404 not found
+
 # 這是一個不存在的頁面
 
 <!--
