@@ -126,7 +126,7 @@ archive_generator:
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/cn27529/hexo-demo.git
+  repo: https://github.com/cn27529/sub-xispace.git
   branch: gh-pages
 
 # admin deploy設定，mydeploy.sh要變更權限chmod 777 mydeploy.sh
